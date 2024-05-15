@@ -8,22 +8,17 @@ Este é um simples script Python para realizar ataques de requisições HTTP/HTT
 - Biblioteca aiohttp (instalável via `pip install aiohttp`)
 
 ## Como usar
-1. Clone este repositório ou baixe o arquivo `attack.py`.
+1. Clone este repositório ou baixe o arquivo `4NG3L.py`.
 2. Certifique-se de ter os requisitos mencionados acima instalados.
 3. Execute o script usando o Python.
 4. Siga as instruções para selecionar o tipo de ataque, inserir a URL alvo, o número de solicitações por thread e o número de threads.
 
-## Atenção
-Este script deve ser usado apenas para fins educacionais ou autorizados. O uso indevido deste script pode violar leis de segurança cibernética e resultar em consequências legais graves.
-
 ## Notas
 - Este script pode não funcionar corretamente em todos os cenários ou alvos, dependendo da configuração do servidor alvo e de possíveis proteções contra ataques de negação de serviço (DDoS).
-- Recomenda-se usar este script com responsabilidade e ética, e apenas em sistemas e redes que você tem permissão para testar.
-4. Siga as instruções para selecionar o tipo de ataque, inserir a URL alvo, o número de solicitações por thread e o número de threads.
+5. Siga as instruções para selecionar o tipo de ataque, inserir a URL alvo, o número de solicitações por thread e o número de threads.
 
-## Atenção
-Este script deve ser usado apenas para fins educacionais ou autorizados. O uso indevido deste script pode violar leis de segurança cibernética e resultar em consequências legais graves.
+## REFERÊNCIAS
 
-## Notas
-- Este script pode não funcionar corretamente em todos os cenários ou alvos, dependendo da configuração do servidor alvo e de possíveis proteções contra ataques de negação de serviço (DDoS).
-- Recomenda-se usar este script com responsabilidade e ética, e apenas em sistemas e redes que você tem permissão para testar.
+DE SOUZA OLIVEIRA, Leandro; DE SOUSA, João Paulo Claudino; RIBEIRO, João Vitor Assis. Bypassing Cloudflare’s reverse proxy: a case study Contornando o proxy reverso do Cloudflare: um estudo de caso. Brazilian Journal of Development, v. 8, n. 4, p. 27250-27259, 2022.
+
+https://scholar.archive.org/work/iagttpaiqbgp5o2xx7oswmaecy/access/wayback/https://www.brazilianjournals.com/ojs/index.php/BRJD/article/download/46591/pdf
