@@ -2,7 +2,7 @@ import aiohttp
 import asyncio
 import pyfiglet
 
-text =pyfiglet.print_figlet(text="4ng3l",width=150, colors = "YELLOW", font = "doh")
+text = pyfiglet.print_figlet(text="4ng3l", width=150, colors = "YELLOW", font = "doh")
 
 print(text)
 
