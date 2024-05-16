@@ -12,7 +12,7 @@ Este é um simples script Python para realizar ataques de requisições HTTP/HTT
 2. Certifique-se de ter os requisitos mencionados acima instalados.
 3. Execute o script usando o Python.
 4. Siga as instruções para selecionar o tipo de ataque, inserir a URL alvo, o número de solicitações por thread e o número de threads.
-   blob:https://web.whatsapp.com/e2ec3880-d986-4c0f-b6cc-bc260ad42e03(https://github.com/Peaky-Hackers/Challenge/assets/169361461/ebc81983-949b-43f1-a125-c4c2b521aa29)
+   https://web.whatsapp.com/e2ec3880-d986-4c0f-b6cc-bc260ad42e03(https://github.com/Peaky-Hackers/Challenge/assets/169361461/ebc81983-949b-43f1-a125-c4c2b521aa29)
 
 
 ## Notas
