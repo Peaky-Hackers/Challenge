@@ -3,7 +3,11 @@ import aiohttp
 import socket
 import threading
 import time
+import pyfiglet
 
+text =pyfiglet.print_figlet(text="4ng3l",width=150, colors = "RED", font = "doh")
+
+print(text)
 
 
 async def send_request(url, session):
