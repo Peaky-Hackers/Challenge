@@ -3,11 +3,33 @@ import aiohttp
 import socket
 import threading
 import time
-import pyfiglet
+from colorama import init, Fore, Style
+import os
 
-text =pyfiglet.print_figlet(text="4ng3l",width=150, colors = "RED", font = "doh")
+def instalar():
+    os.system('pip install colorama')
 
-print(text)
+init()
+intro = f"""{Fore.RED}
+            | $$  | $$| $$$ | $$ /$$$$$$$           | $$        
+            | $$  | $$| $$$$| $$| $$  \ _/  /$$$$$$ | $$        
+            | $$$$$$$$| $$ $$ $$| $$ /$$$$ /$$__  $$| $$        
+            |_____  $$| $$  $$$$| $$|_  $$| $$$$$$$$| $$        
+                  | $$| $$\  $$$| $$  \ $$| $$_____/| $$        
+                  | $$| $$ \  $$|  $$$$$$/|  $$$$$$$| $$$$$$$$  
+                  |__/|__/  \__/ \______/  \_______/|________/ BETA
+{Style.RESET_ALL}"""
+
+
+print(intro)
+instalar()
+
+
+
+
+
+
+
 
 
 async def send_request(url, session):
@@ -26,9 +48,9 @@ async def attack(url, num_requests, num_threads):
         await asyncio.gather(*tasks)
 
 def main():
-    print("Selecione o tipo de ataque:")
+    print("Selecione o tipo de ataque:\n")
     print("1. Ataque HTTP")
-    print("2. Ataque HTTPS")
+    print("2. Ataque HTTPS\n")
     choice = int(input("Digite o número da sua escolha: "))
 
     if choice == 1:
@@ -46,3 +68,21 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
