@@ -6,8 +6,7 @@ import time
 from colorama import init, Fore, Style
 import os
 
-def instalar():
-    os.system('pip install colorama')
+
 
 init()
 intro = f"""{Fore.RED}
